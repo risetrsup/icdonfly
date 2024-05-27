@@ -23,8 +23,8 @@ import os
 def download_model():
 	url = 'https://drive.google.com/uc?id=1-4f9SfmaTLFKPliRnf95HKG2apJI6NWe'
 	output = 'bert_bigru_model.pth'
-    	if not os.path.exists(output):
-            gdown.download(url, output, quiet=False) 
+	if not os.path.exists(output):
+		gdown.download(url, output, quiet=False) 
 
 #Roman Number IV A into IVA
 

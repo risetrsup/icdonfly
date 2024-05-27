@@ -18,6 +18,7 @@ from transformers import BertTokenizer, BertModel
 import re
 import pickle 
 import os
+import gdown
 
 
 def download_model():
